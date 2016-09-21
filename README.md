@@ -2,6 +2,7 @@
 Take an ip or list of IPs and see if it is in a range or list of ranges
 
 PREREQ: Most have netaddr module installed
+
 https://pypi.python.org/pypi/netaddr
 
 Arguments:
@@ -14,8 +15,11 @@ Arguments:
 the file given in -R can be a csv where column 1 is the CIDR range and column 2 is the the name of the range.  This can be used to match an ip to the name of the range
 
 example input file:
+
 192.168.0.0/24,dev
+
 192.168.1.0/24,dmz
 
 output:
+
 192.168.0.5,192.168.0.0/24,dev
