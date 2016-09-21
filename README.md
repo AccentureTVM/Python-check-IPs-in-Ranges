@@ -1,6 +1,8 @@
 # Python-check-IPs-in-Ranges
 Take an ip or list of IPs and see if it is in a range or list of ranges
 
+PREREQ: Most have netaddr module installed
+https://pypi.python.org/pypi/netaddr
 
 Arguments:
 -i a single ip to check
